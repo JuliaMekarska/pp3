@@ -1,0 +1,25 @@
+Smartphone
+- Attributes 
+brand
+model
+batteryCapacity
+screenSize
+weight
+
+- Behaviors 
+call(number)
+turnOn()
+turnOff()
+
+Bank account
+- Attributes
+accountNumber
+balance
+ownerName
+bankName
+limit
+
+- Behaviors
+withdraw(amount)
+transfer(transferNumber, transferAmount)
+block(password)

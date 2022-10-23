@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Counter
+comment1.params=
+comment1.target=void\ increaseByOne()
+comment2.params=
+comment2.target=void\ decreaseByOne()
+comment3.params=
+comment3.target=void\ increaseByTen()
+comment4.params=
+comment4.target=void\ decreaseByTen()
+comment5.params=
+comment5.target=void\ reset()
+comment6.params=
+comment6.target=void\ displayData()
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8
