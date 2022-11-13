@@ -7,26 +7,27 @@ public class DrivingLicense {
     private String city;
     private String drivingLicenseNum;
     private int yearOfIssue;
-    private String licenseCategory;
+    private String category;
 
     void displayInfo() {
 
-        "Name: " + name);
-        "Surname: " + surname);
-        "Street: " + address);
-        "Postal code: " + postalCode);
-        "City: " + city);
-        "Driving License Number: " + drivingLicenseNum);
-        "Year of issue: " + yearOfIssue);
-        "License category: " + licenseCategory);
+        System.out.println(getName());
+        System.out.println(getSurname());
+        System.out.println(getAddress());
+        System.out.println(getPostalCode());
+        System.out.println(getCity());
+        System.out.println(getDrivingLicenseNum());
+        System.out.println(getYearOfIssue());
+        System.out.println(getCategory());
+
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        name = name.substring(beginIndex: 0, endIndex: 1).toUpperCase() + name
+    public void setName(String name){
+        name = name.substring(0, 1).toUpperCase() + name.substring(1).toLowerCase();
         this.name = name;
     }
 
@@ -78,17 +79,17 @@ public class DrivingLicense {
         this.yearOfIssue = yearOfIssue;
     }
 
-    public String getLicenseCategory() {
-        return licenseCategory;
+    public String getCategory() {
+        return category;
     }
 
-    public void setLicenseCategory(String city) {
-        this.licenseCategory = licenseCategory;
+    public void setCategory(String category) {
+        this.category = category;
     }
 
-    public toString() {
-        return "Name: " + name, "Surname: " + surname, "Street: " + address, "Postal Codde: " + postalCode, "City: " + city, "Driving license number: " + drivingLicenseNum,
-        "Year of issue: " + yearOfIssue, "License category: " + licenseCategory;
+    public String toString() {
+        return "Name: " + getName() + "Surname: " + getSurname() + "\n" + "Street: " + getAddress() + "Postal Codde: " + getPostalCode() + "City: " + getCity() + "\n" + "Driving license number: " + 
+        getDrivingLicenseNum() + "Year of issue: " + getYearOfIssue() + "License category: " + getCategory();
 
     }
 
