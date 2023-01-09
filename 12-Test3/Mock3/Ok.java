@@ -1,0 +1,5 @@
+interface Ok { 
+    
+    boolean ok(); 
+
+}
